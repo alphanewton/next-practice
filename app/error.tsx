@@ -1,7 +1,5 @@
 "use client";
 
-import { Error } from "mongoose";
-
 interface Props {
   error: Error;
   reset: () => void;
